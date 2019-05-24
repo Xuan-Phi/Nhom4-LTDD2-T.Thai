@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/textview">
+
+
+    <ImageView
+        android:id="@+id/img_gioitinh"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_hoten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Họ tên"/>
+
+        <TextView
+            android:id="@+id/tv_namsinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Năm sinh"/>
+
+        <TextView
+            android:id="@+id/tv_quequan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quê quán"/>
+    </LinearLayout>
+
+</LinearLayout>

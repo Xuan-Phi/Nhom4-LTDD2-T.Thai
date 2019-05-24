@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuanLySinhVien</string>
+    <string-array name="khoa">
+        <item>Công nghệ thông tin</item>
+        <item>Cơ khí</item>
+        <item>Du lịch</item>
+        <item>Tiếng anh</item>
+    </string-array>
+</resources>

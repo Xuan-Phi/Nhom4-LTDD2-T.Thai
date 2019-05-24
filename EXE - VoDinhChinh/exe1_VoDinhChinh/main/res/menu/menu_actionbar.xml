@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item android:id="@+id/light"
+     android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+     app:showAsAction="ifRoom"
+     android:title="light"/>
+ <item android:id="@+id/hightlight"
+     android:icon="@drawable/ic_highlight_black_24dp"
+     app:showAsAction="ifRoom"
+     android:title="hightlight"/>
+</menu>
